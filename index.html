@@ -1,2 +1,66 @@
 <!DOCTYPE html>
-<html><body><h1>Placeholder</h1></body></html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pro Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="container hero-content">
+      <h1 class="fade-in">Launch Your Business</h1>
+      <p class="fade-in">Powerful tools to get started quickly and grow fast.</p>
+      <a href="#contact" class="btn fade-in">Get Started</a>
+    </div>
+  </header>
+
+  <section class="features">
+    <div class="container">
+      <h2>What You Get</h2>
+      <div class="feature-box">
+        <div class="feature fade-in">
+          <i class="fas fa-bolt fa-2x"></i>
+          <h3>Fast Setup</h3>
+          <p>Get online in minutes with our streamlined tools.</p>
+        </div>
+        <div class="feature fade-in">
+          <i class="fas fa-shield-alt fa-2x"></i>
+          <h3>Secure</h3>
+          <p>Top-notch security features to protect your users.</p>
+        </div>
+        <div class="feature fade-in">
+          <i class="fas fa-headset fa-2x"></i>
+          <h3>24/7 Support</h3>
+          <p>We’re always here when you need us.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Join Us Today</h2>
+      <form>
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 YourCompany. All rights reserved.</p>
+  </footer>
+
+<button onclick="toggleTheme()" id="theme-toggle">Toggle Dark Mode</button>
+
+<script>
+  function toggleTheme() {
+    document.body.classList.toggle('dark');
+  }
+</script>
+</body>
+</html>
